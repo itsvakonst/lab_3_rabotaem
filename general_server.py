@@ -353,9 +353,9 @@ class Server:
         # server_socket.close()
         pass
 
-
 if __name__ == "__main__":
     HOST = '127.0.0.1'  # IP-адрес сервера
     PORT = 8888  # порт сервера
     server = Server(HOST, PORT)
     server.start()
+    
